@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    font-family: fera code, dejavu sans mono;
+    border: border-box;
+
+}
+
+.navbar {
+    height: 150px;
+    background-color:#966a5e ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    background-image: url("aestra-logo.jpg");
+    height: 100px;
+    width: 240px;
+    background-size: cover;
+    border: 1.5px solid transparent;
+}
+
+.nav-logo:hover {
+    border: 1.5px solid white;
+}
+/** box 2 **/
+
+.dt {
+    margin-left: 20px;
+    font-size: 1rem
+}
+
+.location {
+    font-size: 2rem;
+    margin-left: 4px;
+}
+
+.nav-add {
+    border: 1.5px solid transparent;
+}
+
+.nav-add:hover {
+    border: 1.5px solid white;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+/**box**/
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.search-input {
+    width: 700px;
+    height: 40px;
+    font-size: 1.3rem;
+}
+
+button {
+    height: 45px;
+    border: none;
+    color: white;
+    background-color: rgb(57, 39, 35);
+    font-size: 1.2rem;
+}
+
+.search-icon {
+    width: 45px;
+    height: 45px;
+    background-color:white ;
+    color:  rgb(174, 135, 126);
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    text-decoration: none;
+}
+
+/**box4**/
+.sign {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1.5px solid transparent;
+    color: white;
+    text-decoration: none;
+}
+
+.sign:hover {
+    border: 1.5px solid white;
+}
+
+span {
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.nav-sign {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+/**box5**/
+.nav-return {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-myorder {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-align: center;
+    border: 1.5px solid transparent;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-myorder:hover {
+    border: 1.5px solid white;
+}
+
+/**box6**/
+.bag {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1.5px solid transparent;
+    color: white;
+    text-decoration: none;
+}
+
+.bag:hover {
+    border: 1.5px solid white;
+}
+
+span {
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.nav-bag {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+/**panel**/
+.main-panel {
+    height: 50px;
+    background-color: rgb(204, 178, 172);
+    color: #966a5e;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-options {
+    display: inline;
+    color: #966a5e;
+    text-decoration: none;
+    width: 70%;
+    font-size: 1rem;
+}
+
+.panel-cntnt {
+    font-size: 1.85rem;
+}
+
+.panel{
+    margin-left: 15px;
+    color:#966a5e ;
+    text-decoration: none;
+    font-weight: 100;
+    font-weight: bold;
+}
+
+.panel:hover {
+    color: rgb(57, 39, 35);
+    font-weight: 150;
+    border: 1.5px solid #966a5e;
+    font-weight: bold;
+}
+
+
+/**MAIN BODY**/
+.new-arivals {
+    display: flex;
+    height: 400px;
+    width: 1728px;
+    border: 1.5px solid transparent;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.caption {
+    color: white;
+    background-color: rgb(57, 39, 35);
+    height: 400px;
+    width: 728px;
+    text-align: center;
+}
+
+.name {
+    margin-top: 55px;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.offer {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.sign-up {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: none;
+}
+
+.sign-up:hover {
+    background-color: none;
+    border: none;
+    text-decoration: dashed;
+}
+
+.brand-img {
+    background-image: url("blazer.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 1000px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-evenly;
+    height: 800px;
+    width: 100%;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.option-link {
+    text-decoration: none;
+}
+
+.box-name {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: black;
+}
+
+.box-name:hover {
+    color: grey;
+}
+
+.box1{
+    height: 800px;
+    width: 425px;
+}
+
+.box2{
+    height: 800px;
+    width: 425px;
+}
+
+.box3{
+    height: 800px;
+    width: 425px;
+}
+
+.box4{
+    height: 800px;
+    width: 425px;
+}
+
+.box1-img {
+    background-image: url("outerwear.jpg");
+    background-size: cover;
+    height: 90%;
+    width: 425px;
+    margin-bottom: 10px;
+}
+
+.box1-img:hover {
+    background-image: url("outerwearhover.jpg");
+}
+
+.box2-img {
+    background-image: url("sweaters.jpg");
+    background-size: cover;
+    height: 90%;
+    width: 425px;
+    margin-bottom: 10px;
+}
+
+.box2-img:hover {
+    background-image: url("sweatershover.jpg");
+}
+
+.box3-img {
+    background-image: url("pants.jpg");
+    background-size: cover;
+    height: 90%;
+    width: 425px;
+    margin-bottom: 10px;
+}
+
+.box3-img:hover {
+    background-image: url("pantshover.jpg");
+}
+
+.box4-img {
+    background-image: url("bags.jpg");
+    background-size: cover;
+    height: 90%;
+    width: 425px;
+    margin-bottom: 10px;
+}
+
+.box4-img:hover {
+    background-image: url("bagshover.jpg");
+}
+
+.bg {
+    height: 900px;
+    width: 100%;
+    background-image: url("img.jpg");
+    background-size: cover;
+    border: 1.5px solid transparent;
+    align-content: center;
+}
+
+.newin {
+    display: flex;
+}
+
+.party {
+    height: 1000px;
+    width: 50%;
+    background-image: url("party.jpg");
+    background-size: cover;
+    justify-items: center;
+}
+
+.party-text {
+    color: white;
+    margin-top: 80%;
+    font-size: larger;
+}
+
+.explore1 {
+    background-image: url("blur-bg.JPG");
+      background-size: cover;
+    color: white;
+    border: 1px solid white;
+}
+
+.explore2 {
+    background-image: url("blur-bg2.JPG");
+    background-size: cover;
+    color: white;
+    border: 1px solid white;
+}
+
+.bestsellers {
+    height: 1000px;
+    width: 50%;
+    background-image: url("bestsellers.jpg");
+    background-size: cover;
+    justify-items: center;
+}
+
+.bestseller-text {
+    color: white;
+    margin-top: 80%;
+    font-size: larger;
+}
+
+.boots {
+    height: 900px;
+    width: 100%;
+    background-image: url("boots.jpg");
+    background-size: cover;
+    border: 1.5px solid transparent;
+    align-content: center;
+}
+
+.foot-space {
+    background-color: white;
+    color: rgb(57, 39, 35);
+    height: 900px;
+}
+
+/**FOOTER**/
+
+.foot-panel1 {
+    height: 50px;
+    background-color: rgb(57, 39, 35) ;
+    color: white;
+    align-content: center;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.panel-top {
+    text-decoration: none;
+}
+
